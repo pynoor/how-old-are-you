@@ -1,9 +1,9 @@
 while True :
     try :
-            age = int(input("How old are you? ..."))
+        age = int(input("How old are you?..."))
     except ValueError :
-            print ("Sorry, I don't get that!")
-            continue
+        print ("Sorry, I don't get that!")
+        continue
     while age < 13 :
         print ("You're too young to drink Raki")
         print("Play again...")
