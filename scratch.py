@@ -1,4 +1,3 @@
-
 while True :
     try :
             age = int(input("How old are you? ..."))
@@ -24,10 +23,13 @@ while True :
     elif age == 17 :
         print ("How many Rakis can you drink in a minute ?")
         print ("Play again...")
-    elif age >= 18 :
-         if age == 1000:
+    elif age < 100 :
+        print("You're a rakixpert!")
+        print("Play again...")
+    elif age >= 100 :
+        if age == 1000 :
               break
-         elif age != 1000 :
-              print ("You're a rakixpert!")
-              print("Play again...")
+        elif age != 1000 :
+            print ("You're too old to drink Raki !")
+            break
 print ("See you next time!")
