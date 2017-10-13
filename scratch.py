@@ -18,10 +18,10 @@ while True :
         print ("Don't let the Raki take over your life, now is a good time to set some limits!")
         print("Play again...")
     elif age == 16 :
-        print ("A tip : Don't hide the Raki under your cushions ... it smells !")
+        print ("A tip : Don't hide the Raki under your cushions ... it smells!")
         print("Play again...")
     elif age == 17 :
-        print ("How many Rakis can you drink in a minute ?")
+        print ("How many Rakis can you drink in a minute?")
         print ("Play again...")
     elif age < 100 :
         print("You're a rakixpert!")
@@ -30,6 +30,6 @@ while True :
         if age == 1000 :
               break
         elif age != 1000 :
-            print ("You're too old to drink Raki !")
+            print ("You're too old to drink Raki!")
             break
 print ("See you next time!")
